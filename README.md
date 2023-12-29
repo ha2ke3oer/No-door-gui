@@ -75,6 +75,7 @@ MainTab:AddButton({
 	Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/zoophiliaphobic/POOPDOORS/main/script.lua'))()
   	end    
+
 })
 MainTab:AddButton({
 	Name = "no hub ",
@@ -82,6 +83,7 @@ MainTab:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ha2ke3oer/No-hub/main/README.md"))()
   	end    
 })
+
 local OtherTab = Window:MakeTab({
 	Name = "Other scripts",
 	Icon = "rbxassetid://4483345998",
