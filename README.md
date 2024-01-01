@@ -78,7 +78,7 @@ MainTab:AddButton({
 
 })
 MainTab:AddButton({
-	Name = "no hub ",
+	Name = "no hub",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ha2ke3oer/No-hub/main/README.md"))()
   	end    
