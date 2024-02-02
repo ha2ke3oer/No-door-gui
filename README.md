@@ -1,8 +1,7 @@
--- No Doors Hub 1.0
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "No gui v1", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "No Doors Hub 2.0", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
                                                   
 
 local MainTab = Window:MakeTab({
@@ -12,7 +11,7 @@ local MainTab = Window:MakeTab({
 })
 
 local Section = MainTab:AddSection({
-	Name = "EnjoyðŸ‘Œ"
+	Name = "Enjoy👌"
 })
 
 MainTab:AddSlider({
@@ -29,14 +28,14 @@ MainTab:AddSlider({
 })
 
 MainTab:AddButton({
-	Name = "MSDOORS ",
+	Name = "MSDOORS 2.4",
 	Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/mstudio45/MSDOORS/7bd97c2d956a775d683c2d7973d79715b30998ea/MSDOORS/Moonsec.lua'))()
   	end    
 })
 
 MainTab:AddButton({
-	Name = "MSDOORShub",
+	Name = "MSDOORS NEW",
 	Callback = function()
         loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSHUB_Loader.lua"),true))()           
   	end    
@@ -50,7 +49,7 @@ MainTab:AddButton({
 })
 
 MainTab:AddButton({
-	Name = "awesome pc",
+	Name = "awesome script by lolcat",
 	Callback = function()
         loadstring(game:HttpGet("https://lolcat.boo/awesomescript"))()
   	end    
@@ -64,7 +63,7 @@ MainTab:AddButton({
 })
 
 MainTab:AddButton({
-	Name = "awesome mobile",
+	Name = "awesome script for mobile",
 	Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/yieviro92creepy/Ak/main/Z'))()
   	end    
@@ -74,13 +73,6 @@ MainTab:AddButton({
 	Name = "poopdoors",
 	Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/zoophiliaphobic/POOPDOORS/main/script.lua'))()
-  	end    
-
-})
-MainTab:AddButton({
-	Name = "no hub",
-	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/ha2ke3oer/No-hub/main/README.md"))()
   	end    
 })
 
